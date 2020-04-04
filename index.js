@@ -6,6 +6,13 @@ const rad = deg => {
   return deg * Math.PI / 180.0;
 };
 
+/**
+ * calculate distance from two lat and lng
+ * @param {number} lat1
+ * @param {number} lng1
+ * @param {number} lat2
+ * @param {number} lng2
+ */
 const distance = (lat1, lng1, lat2, lng2) => {
   lat1 = rad(lat1);
   lat2 = rad(lat2);
