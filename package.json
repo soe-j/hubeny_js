@@ -1,0 +1,9 @@
+{
+  "name": "node-hubeny",
+  "version": "1.0.0",
+  "description": "calculate distance from two latitude and longitude",
+  "main": "index.js",
+  "repository": "git@github.com:soe-j/node-hubeny.git",
+  "author": "soe-j",
+  "license": "MIT"
+}
