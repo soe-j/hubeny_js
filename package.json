@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:soe-j/node-hubeny.git",
   "author": "soe-j",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.2.7"
+  }
 }
