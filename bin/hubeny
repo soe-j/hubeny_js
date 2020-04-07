@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+const p1 = process.argv[2];
+const p2 = process.argv[3];
+
+const [lat1, lng1] = p1.split(',').map(l => parseFloat(l));
+const [lat2, lng2] = p2.split(',').map(l => parseFloat(l));
+
+console.log(`(${lat1},${lng1}) => (${lat2},${lng2})`);
+
+const hubeny = require('../index');
+const distance = hubeny.distance(lat1, lng1, lat2, lng2);
+
+console.log(`${distance} m`);
