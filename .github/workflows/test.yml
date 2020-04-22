@@ -35,3 +35,5 @@ jobs:
 
     - run: yarn install
     - run: yarn test
+
+    - run: bin/hubeny 35.706066,139.651747 35.706010,139.651252
